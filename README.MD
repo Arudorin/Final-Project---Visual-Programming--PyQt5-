@@ -46,7 +46,7 @@ Pastikan kamu sudah menginstal Python (versi 3.6 atau lebih baru).
 
 **2. Clone Repositori**
 ```bash
-git clone [https://github.com/](https://github.com/)[username-github-kamu]/[nama-repositori-kamu].git
+git clone https://github.com/Arudorin/Final-Project---Visual-Programming--PyQt5-.git
 cd [nama-repositori-kamu]
 ```
 
