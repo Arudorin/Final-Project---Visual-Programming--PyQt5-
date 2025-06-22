@@ -1,5 +1,56 @@
-PV25 - Proyek Akhir - DompetKuRepositori ini berisi proyek akhir untuk mata kuliah Pemrograman Visual (PV25). Proyek ini adalah aplikasi DompetKu, sebuah pelacak pengeluaran harian yang dibangun menggunakan Python dan PyQt5.DeskripsiDompetKu adalah aplikasi desktop yang dirancang untuk membantu pengguna mencatat dan mengelola pengeluaran harian mereka. Aplikasi ini menyediakan antarmuka yang ramah pengguna untuk menambahkan data pengeluaran beserta detail seperti kategori, tanggal, jumlah, dan keterangan tambahan. Semua data disimpan secara lokal dalam database SQLite.FiturProyek ini berhasil mengimplementasikan semua fitur yang diwajibkan dalam tugas:Menu Bar Aplikasi: Termasuk menu File (Ekspor ke CSV, Keluar) dan Bantuan (Tentang).Status Bar: Menampilkan nama dan NIM mahasiswa secara permanen di bagian bawah jendela.Integrasi Database: Menggunakan SQLite untuk menyimpan, mengambil, memperbarui, dan menghapus data pengeluaran. Model data terdiri dari ID, Nama Pengeluaran, Kategori, Tanggal, Jumlah, dan Keterangan.Struktur Layout yang Tepat: UI disusun menggunakan QVBoxLayout, QHBoxLayout, dan QGridLayout, yang semuanya dirancang di dalam Qt Designer.Fitur Ekspor: Memungkinkan pengguna untuk mengekspor seluruh daftar pengeluaran ke file CSV.Kustomisasi StyleSheet: Gaya kustom diterapkan pada tombol, group box, dan status bar untuk meningkatkan penampilan visual.Integrasi Qt Designer: Antarmuka pengguna dimuat dari file .ui, menunjukkan pemisahan antara desain dan logika.Cara Menjalankan AplikasiClone repositori:git clone https://github.com/your-username/pv25-finalproject-dompetku.git
-cd pv25-finalproject-dompetku
-Install library yang dibutuhkan:pip install PyQt5
-Jalankan skrip utama:python main.py
-Aplikasi akan terbuka, dan file expenses_database.db akan dibuat secara otomatis di direktori yang sama untuk menyimpan data Anda.File dalam Repositorimain.py: Skrip Python utama yang berisi semua logika aplikasi.dompetku_main_window.ui: File XML yang dibuat dengan Qt Designer yang mendefinisikan layout GUI.expenses_database.db: File database SQLite (akan dibuat saat aplikasi pertama kali dijalankan).README.md: File ini.
+Final Project: Visual Programming (PyQt5)
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=flat-square" alt="Python Badge">
+Deskripsi
+
+Proyek ini adalah aplikasi Visual Programming berbasis PyQt5. Aplikasi ini dibuat sebagai tugas akhir untuk mata kuliah Visual Programming. Melalui aplikasi ini, pengguna dapat membuat aplikasi GUI secara visual dan interaktif menggunakan Python serta pustaka PyQt5.
+Fitur
+
+    Antarmuka pengguna berbasis GUI yang interaktif
+    Drag-and-drop komponen (button, label, textbox, dll)
+    Preview desain secara real-time
+    Ekspor kode Python hasil desain
+    Dukungan multi-platform (Windows, Linux, MacOS)
+
+Instalasi
+
+    Clone repository ini:
+    bash
+
+git clone https://github.com/Arudorin/Final-Project---Visual-Programming--PyQt5-.git
+
+Masuk ke direktori proyek:
+bash
+
+cd Final-Project---Visual-Programming--PyQt5-
+
+Install dependencies yang diperlukan:
+bash
+
+    pip install -r requirements.txt
+
+Cara Menjalankan
+
+Jalankan file utama aplikasi:
+bash
+
+python main.py
+
+Struktur Folder
+Code
+
+.
+├── main.py
+├── /src
+│   └── ... (kode sumber)
+├── /assets
+│   └── ... (gambar/icon)
+├── requirements.txt
+└── README.md
+
+Kontributor
+
+    Arudorin
+
+Lisensi
+
+Proyek ini dilisensikan di bawah MIT License. Lihat file LICENSE untuk informasi lebih lanjut.
